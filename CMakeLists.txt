@@ -19,11 +19,11 @@ else()
 endif()
 
 # Create the app module
-add_cfe_app(hs ${APP_SRC_FILES})
+add_cfe_app(hs_app ${APP_SRC_FILES})
 
 # This permits direct access to public headers in the fsw/inc directory
-target_include_directories(hs PUBLIC fsw/inc)
-add_cfe_app_dependency(hs iodriver)
+target_include_directories(hs_app PUBLIC fsw/inc)
+add_cfe_app_dependency(hs_app iodriver)
 
 set(APP_TABLE_FILES
   fsw/tables/hs_mat.c
@@ -32,7 +32,7 @@ set(APP_TABLE_FILES
   fsw/tables/hs_emt.c
 )
 
-add_cfe_tables(hs ${APP_TABLE_FILES})
+add_cfe_tables(hs_app ${APP_TABLE_FILES})
 
 # If UT is enabled, then add the tests from the subdirectory
 # Note that this is an app, and therefore does not provide

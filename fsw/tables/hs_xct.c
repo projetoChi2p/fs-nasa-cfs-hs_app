@@ -68,4 +68,4 @@ HS_XCTEntry_t HS_ExeCount_Tbl[HS_MAX_EXEC_CNT_SLOTS] = {
     /*  31 */ {"", 0, HS_XCT_TYPE_NOTYPE},
 };
 
-CFE_TBL_FILEDEF(HS_ExeCount_Tbl, HS.ExeCount_Tbl, HS ExeCount Table, hs_xct.tbl)
+CFE_TBL_FILEDEF(HS_ExeCount_Tbl, HS_APP.ExeCount_Tbl, HS ExeCount Table, hs_xct.tbl)

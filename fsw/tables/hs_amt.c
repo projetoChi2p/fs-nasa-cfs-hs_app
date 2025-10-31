@@ -68,4 +68,4 @@ HS_AMTEntry_t HS_AppMon_Tbl[HS_MAX_MONITORED_APPS] = {
     /*  31 */ {"", 0, 10, HS_AMT_ACT_NOACT},
 };
 
-CFE_TBL_FILEDEF(HS_AppMon_Tbl, HS.AppMon_Tbl, HS AppMon Table, hs_amt.tbl)
+CFE_TBL_FILEDEF(HS_AppMon_Tbl, HS_APP.AppMon_Tbl, HS AppMon Table, hs_amt.tbl)

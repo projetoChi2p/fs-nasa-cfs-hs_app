@@ -101,4 +101,4 @@ HS_MatTableEntry_t HS_MsgActs_Tbl[HS_MAX_MSG_ACT_TYPES] = {
 
 };
 
-CFE_TBL_FILEDEF(HS_MsgActs_Tbl, HS.MsgActs_Tbl, HS MsgActs Table, hs_mat.tbl)
+CFE_TBL_FILEDEF(HS_MsgActs_Tbl, HS_APP.MsgActs_Tbl, HS MsgActs Table, hs_mat.tbl)
