@@ -313,7 +313,7 @@
  *  \par Limits:
  *       Must be a name of a module that is implemented by the PSP
  */
-#define HS_SYSTEM_MONITOR_DEVICE "linux_sysmon"
+#define HS_SYSTEM_MONITOR_DEVICE "freertos_sysmon"
 
 /**
  * \brief CPU Utilization subsystem name
