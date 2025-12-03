@@ -236,7 +236,7 @@
  *  \par Limits:
  *       Must be HS_STATE_ENABLED or HS_STATE_DISABLED
  */
-#define HS_ALIVENESS_DEFAULT_STATE HS_STATE_ENABLED
+#define HS_ALIVENESS_DEFAULT_STATE HS_STATE_DISABLED
 
 /**
  * \brief Default State of the CPU Hogging Indicator
